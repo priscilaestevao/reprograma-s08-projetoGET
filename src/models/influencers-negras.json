@@ -1,52 +1,52 @@
 [
   {
     "id": 1,
-    "influencer": "Luiza Brasil",
-    "Instagram": "@mequetrefismos"
+    "name": "Luiza Brasil",
+    "instagram": "@mequetrefismos"
   },
   {
     "id": 2,
-    "influencer": "Magá Moura",
-    "Instagram": "@magavilhas"
+    "name": "Magá Moura",
+    "instagram": "@magavilhas"
   },
   {
     "id": 3,
-    "influencer": "Loo Nascimento",
-    "Instagram": "@loo_ana"
+    "name": "Loo Nascimento",
+    "instagram": "@loo_ana"
   },
   {
     "id": 4,
-    "influencer": "Daniele da Mata",
-    "Instagram": "@afrocruela"
+    "name": "Daniele da Mata",
+    "instagram": "@afrocruela"
   },
   {
     "id": 5,
-    "influencer": "Stefanny Borges",
-    "Instagram": "@steffany_borges"
+    "name": "Stefanny Borges",
+    "instagram": "@steffany_borges"
   },
   {
     "id": 6,
-    "influencer": "Jacy July",
-    "Instagram": "@jacyjuly"
+    "name": "Jacy July",
+    "instagram": "@jacyjuly"
   },
   {
     "id": 7,
-    "influencer": "Nátaly Nery",
-    "Instagram": "@natalyneri"
+    "name": "Nátaly Nery",
+    "instagram": "@natalyneri"
   },
   {
     "id": 8,
-    "influencer": "Gabi Oliveira",
-    "Instagram": "@gabidepretas"
+    "name": "Gabi Oliveira",
+    "instagram": "@gabidepretas"
   },
   {
     "id": 9,
-    "influencer": "Preta Rara",
-    "Instagram": "@pretararaoficial"
+    "name": "Preta Rara",
+    "instagram": "@pretararaoficial"
   },
   {
     "id": 10,
-    "influencer": "Caçando Estórias",
-    "Instagram": "@cacandoestorias"
+    "name": "Caçando Estórias",
+    "instagram": "@cacandoestorias"
   }
 ]

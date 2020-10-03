@@ -7,7 +7,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <title>Front - Exemplo</title>
+    <title>Projeto GET - Priscila Estevao</title>
     <style>
       body {
         max-width: 1120px;
@@ -64,8 +64,8 @@
       <thead>
         <tr>
           <th>Id</th>
-          <th>Título</th>
-          <th>Artista</th>
+          <th>Name</th>
+          <th>Instagram</th>
         </tr>
       </thead>
 
@@ -77,7 +77,7 @@
     <script>
       var objJson = [];
 
-      const URL = `http://localhost:8080/matriz`;
+      const URL = `http://localhost:3000/influencers`;
       fetch(URL)
         .then((resposta) => resposta.json())
         .then((data) => preencherDados(data))
@@ -96,12 +96,12 @@
           let itemDaLinhaId = document.createElement('td');
           itemDaLinhaId.innerText = element.id;
           let itemDaLinhaNome = document.createElement('td');
-          itemDaLinhaNome.innerText = element.titulo;
-          let itemDaLinhaOpcao = document.createElement('td');
-          itemDaLinhaOpcao.innerHTML = element.artista;
+          itemDaLinhaNome.innerText = element.name;
+          let itemDaLinhaPagina = document.createElement('td');
+          itemDaLinhaPagina.innerHTML = element.instagram;
           linha.appendChild(itemDaLinhaId);
           linha.appendChild(itemDaLinhaNome);
-          linha.appendChild(itemDaLinhaOpcao);
+          linha.appendChild(itemDaLinhaPagina);
           listing_table.appendChild(linha);
         });
       }
