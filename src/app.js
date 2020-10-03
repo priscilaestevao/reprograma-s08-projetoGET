@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-const influencers = require('./routes/booksRoute');
+const influencers = require('./routes/seriesRoute');
 
 const cors = require('cors');
 app.use(cors());

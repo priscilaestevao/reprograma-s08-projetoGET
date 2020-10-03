@@ -67,6 +67,7 @@
           <th>Titulo</th>
           <th>Autor</th>
           <th>Ano</th>
+          <th>Temporadas</th>
         </tr>
       </thead>
 
@@ -78,7 +79,7 @@
     <script>
       var objJson = [];
 
-      const URL = `http://localhost:3000/influencers`;
+      const URL = `http://localhost:3000/series`;
       fetch(URL)
         .then((resposta) => resposta.json())
         .then((data) => preencherDados(data))
@@ -96,16 +97,19 @@
           let linha = document.createElement('tr');
           let itemDaLinhaId = document.createElement('td');
           itemDaLinhaId.innerText = element.id;
-          let itemDaLinhaLivro = document.createElement('td');
-          itemDaLinhaLivro.innerText = element.book;
-          let itemDaLinhaAutor = document.createElement('td');
-          itemDaLinhaAutor.innerHTML = element.author;
-          let itemDaLinhaAno = document.createElement('td');
-          itemDaLinhaAno.innerHTML = element.year;
+          let itemDaLinhaTitulo = document.createElement('td');
+          itemDaLinhaTitulo.innerText = element.title;
+          let itemDaLinhaCriacao = document.createElement('td');
+          itemDaLinhaCriacao.innerHTML = element.creation;
+          let itemDaLinhaPrimeiroEpisodio = document.createElement('td');
+          itemDaLinhaPrimeiroEpisodio.innerHTML = element.firstEpisode;
+          let itemDaLinhaTemporadas = document.createElement('td');
+          itemDaLinhaTemporadas.innerHTML = element.seasons;
           linha.appendChild(itemDaLinhaId);
-          linha.appendChild(itemDaLinhaLivro);
-          linha.appendChild(itemDaLinhaAutor);
-          linha.appendChild(itemDaLinhaAno);
+          linha.appendChild(itemDaLinhaTitulo);
+          linha.appendChild(itemDaLinhaCriacao);
+          linha.appendChild(itemDaLinhaPrimeiroEpisodio);
+          linha.appendChild(itemDaLinhaTemporadas);
           listing_table.appendChild(linha);
         });
       }

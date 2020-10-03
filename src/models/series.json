@@ -2,70 +2,70 @@
     {
       "id": 1,
       "title": "Orange is The New Black",
-      "criation": "Jenji Kohan",
+      "creation": "Jenji Kohan",
       "firstEpisode": 2013,
       "seasons": 7
     },
     {
       "id": 2,
       "title": "She Gotta Have It",
-      "criation": "Spike Lee",
+      "creation": "Spike Lee",
       "firstEpisode": 2017,
       "seasons": 2
     },
     {
       "id": 3,
       "title": "When They See Us",
-      "firstEpisode": "Ava DuVernay",
-      "criated": 2019,
+      "creation": "Ava DuVernay",
+      "firstEpisode": 2019,
       "seasons": 2
     },
     {
       "id": 4,
       "title": "Pose",
-      "criation": ["Ryan Murphy", "Brad Falchuk", "Steven Canals"],
+      "creation": ["Ryan Murphy", "Brad Falchuk", "Steven Canals"],
       "firstEpisode": 2018,
       "seasons": 2
     },
     {
       "id": 5,
       "title": "Dear White People",
-      "criation": "Justin Simien",
+      "creation": "Justin Simien",
       "firstEpisode": 2017,
       "seasons": 3
     },
     {
       "id": 6,
       "title": "How to Get Away with Murder",
-      "criation": "Peter Nowalk",
+      "creation": "Peter Nowalk",
       "firstEpisode": 2014,
       "seasons": 6
     },
     {
       "id": 7,
       "title": "Unsolved",
-      "criation": "Kyle Long",
+      "creation": "Kyle Long",
       "firstEpisode": 2018,
       "seasons": 1
     },
     {
       "id": 8,
       "title": "Greenleaf",
-      "criation": "Craig Wright",
+      "creation": "Craig Wright",
       "firstEpisode": 2016,
       "seasons": 5
     },
     {
       "id": 9,
       "title": "Black Eart Rising",
-      "criated": "Hugo Blick",
+      "creation": "Hugo Blick",
       "firstEpisode": 2018,
       "seasons": 1
     },
     { 
       "id": 10,
       "title": "Atlanta",
-      "criated": "Donald Glover",
+      "creation": "Donald Glover",
       "firstEpisode": 2016,
       "seasons": 2
     }
